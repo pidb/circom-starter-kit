@@ -17,11 +17,11 @@
   "dependencies": {
     "circomlib": "^2.0.5",
     "circomlibjs": "^0.1.7",
+    "snarkjs": "^0.7.3",
     "toml": "^3.0.0",
     "which": "^4.0.0"
   },
   "scripts": {
-    "circom2": "./circuits/init/circuit.circom",
-    "circom": "hardhat circom --verbose --deterministic"
+    "circom": "node scripts/circom.js"
   }
 }
